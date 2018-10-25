@@ -1,6 +1,50 @@
 body {
-    background-image: url("bulldog.jpg");
+    
     font-family: Fira Sans;
-    background-size: cover;
     color: black;
+    background-color #F0ECEE;
+}
+
+a {
+    text-decoration: none;
+}
+<style>
+ h1 {
+color: red; 
+}
+span{
+color: red
+}
+</style>
+li{
+    color:#88898B;
+    .selected {background color: ; }
+}
+strong { 
+    font-weight: bold;
+    color:#FF4850
+}
+ul {
+    list-style: none;
+    border: none;
+ }
+ .flexcontainer {
+    display: flex;
+    justify-content: center;
+    
+ }
+    
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #F0ECEE;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url("bulldog.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
 }
